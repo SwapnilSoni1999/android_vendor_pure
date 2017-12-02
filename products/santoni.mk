@@ -14,7 +14,7 @@
 
 
 # Inherit AOSP device configuration for santoni
-$(call inherit-product, device/xiaomi/land/aosp_santoni.mk)
+$(call inherit-product, device/xiaomi/santoni/aosp_santoni.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := santoni
